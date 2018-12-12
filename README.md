@@ -25,4 +25,5 @@ Built an algorithm to identify canine breed given an image of a dog. If given im
 
 Website Crawler | HTML | BeautifulSoup | Python | Data Analysis | Data Processing
 
-Develop an website crawler using python with BeautifulSoup library. The algroithm can detect the button class containing in the HTML and can turn on webpages automatically as the parameter set. Collected data will be used to do descriptive analysis.
+The Douban Movie Website Crawler uses Selenium+Webdriver and BeautifulSoup library. Selenium is introduced to the automation of webpage functionality, such as "click" and "load more", enabling to expand the webpage for continuing crawling. Using BeautifulSoup, it interprets the HTML+CSS structure, from where the "Find" and auxiliary functions help recursively extract the needed movie information such as genre, location, raking and sore from the DIV contents.
+This project is delivered with the *.csv and *.txt files, in which it stores the crawled information and the descriptive analysis from the raw data.
